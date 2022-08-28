@@ -1,1 +1,1 @@
-# deploy: https://pro-jtoralesk.vercel.app/
+# deploy: https://pro-sigma-dusky.vercel.app/
