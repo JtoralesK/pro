@@ -1,9 +1,10 @@
 import React from "react"
 type Prop = {
     img:string,
-    link:string,
+    link:string ,
     github:string,
-    content:string
+    content:string,
+    name:string
 }
 const Project = (props:Prop)=>{
     
@@ -14,7 +15,7 @@ const Project = (props:Prop)=>{
         <img className="project-img" src={props.img} alt="" />
         </div>
        <div className="p-verMas">
-       <h1 className="project-title">Ver mas</h1>
+       <h1 className="project-title">{props.name}</h1>
       <div className="p-visto">
       <p className="p-item">{props.content}</p>
         <div className="p-links">

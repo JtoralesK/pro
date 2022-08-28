@@ -1,7 +1,6 @@
 import React from "react";
 import { FaNodeJs,FaReact,FaHtml5 } from "react-icons/fa";
-import { SiTypescript,SiExpress,SiCss3,SiFirebase,SiPostgresql,SiSequelize, SiWebpack} from "react-icons/si";
-
+import { SiTypescript,SiExpress,SiCss3,SiFirebase,SiPostgresql,SiSequelize, SiWebpack,SiCplusplus} from "react-icons/si";
 const Tecnologias = ()=>{
     return (
         
@@ -16,6 +15,7 @@ const Tecnologias = ()=>{
         <FaHtml5></FaHtml5>
         <SiCss3></SiCss3>
         <SiWebpack></SiWebpack>
+        <SiCplusplus></SiCplusplus>
         </div>          
     )
 }
