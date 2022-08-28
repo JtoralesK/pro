@@ -12,7 +12,7 @@ const Footer = ()=>{
                <div className="redes">
                    <a target="_blank" href="https://www.linkedin.com/in/javitorales"><BsLinkedin></BsLinkedin></a>
                    <a  target="_blank" href="https://github.com/JtoralesK?tab=repositories"><FaGithubSquare></FaGithubSquare></a>
-                   <a download={"cv.pdf"} target="_blank" className="cv" href="src/cv/cv.pdf"><FaFilePdf></FaFilePdf></a>
+                   <a download={"cv.pdf"} className="cv" href="https://drive.google.com/file/d/1DZYWULZQhz2TwexeWRr3MmmOi0idRY9t/view?usp=sharing"><FaFilePdf></FaFilePdf></a>
                </div>
             </div>
         </footer>
