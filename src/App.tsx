@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import { About } from "./components//about/about";
-import { Contact } from "./components//contact";
+import { About } from "./components/about/about";
+import { Contact } from "./components/contact";
 import {Intro}from"./components//intro"
-import { ListProjects } from "./components//listProjects";
-import { Pg } from "./components//pantallasGrandes";
-import {Header} from"./components//header"
-import { Toggle } from "./components//toggle";
+import { ListProjects } from "./components/listProjects";
+import { Pg } from "./components/pantallasGrandes";
+import {Header} from"./components/header"
+import { Toggle } from "./components/toggle";
 import { Footer } from "./components/footer";
 function App() {
   const [mode , setMode] = useState(true)
