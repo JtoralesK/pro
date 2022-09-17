@@ -2,13 +2,16 @@ import React ,{useRef} from "react"
 import { FaPhoneAlt,FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import emailjs from '@emailjs/browser';
+console.log(emailjs);
+
 const Contact = ()=>{
-    const formRef = useRef(null);
-    const form:any = formRef.current;
-    const handle = (e:any)=>{
-        e.preventDefault()
-        console.log( formRef.current);
-        
+   
+    const formRef:any = useRef();
+    
+    const handle = (e)=>{
+        e.preventDefault()     
+        const form:HTMLFormElement=formRef.current
+
         emailjs.sendForm('service_rrn9fsv', 'template_73vde55', form,"4yp1M_2eK4hKGje13")
         .then((result) => {
             console.log(result.text);
