@@ -1,11 +1,11 @@
-import React ,{useRef} from "react"
+import React ,{useRef, useState} from "react"
 import { FaPhoneAlt,FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import emailjs from '@emailjs/browser';
 console.log(emailjs);
 
 const Contact = ()=>{
-   
+   const [sendForm,setSendForm]= useState("")
     const formRef:any = useRef();
     
     const handle = (e)=>{
@@ -14,9 +14,11 @@ const Contact = ()=>{
 
         emailjs.sendForm('service_rrn9fsv', 'template_73vde55', form,"4yp1M_2eK4hKGje13")
         .then((result) => {
+            window.alert("Menjase enviado correctamente")
             console.log(result.text);
         }, (error) => {
-            console.log(error.text);
+            window.alert("Hubo un error, intentelo nuevamente..")
+
         });
     }
     return(
