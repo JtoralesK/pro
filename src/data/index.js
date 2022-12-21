@@ -11,8 +11,8 @@ const project2 = {
     id:2,
     name:"PetApx",
     img:"https://www.gvcvets.co.uk/wp-content/uploads/2019/10/Stray-cat-and-dog.jpg",
-    link:"https://apx-desafio-mod7.herokuapp.com/",
-    github:"https://github.com/JtoralesK/apx-desafio-mod7",
+    link:"https://dwf7-frontend.up.railway.app/",
+    github:"https://github.com/JtoralesK/dwf7-frontend",
     content:"Una sitio web para logearte y buscar mascotas perdidas."
 
 }
