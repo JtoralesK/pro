@@ -2,7 +2,7 @@ const project1 =  {
         id:1,
         name:"Piedra papel o tijeras",
         img:"https://www.wikihow.com/images_en/thumb/e/e6/Win-at-Rock%2C-Paper%2C-Scissors-Step-16-Version-2.jpg/v4-1200px-Win-at-Rock%2C-Paper%2C-Scissors-Step-16-Version-2.jpg",
-        link:"https://desafio-final-n6.herokuapp.com/",
+        link:"https://dwf-desafio6-production.up.railway.app/",
         github:"https://github.com/JtoralesK/dwf-desafio6",
         content:"Juego online de piedra,papel o tijera. "
     }
